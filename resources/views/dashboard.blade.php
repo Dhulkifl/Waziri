@@ -32,11 +32,11 @@
                                 <div class="row flex-between-center g-0">
                                     <div class="col-6 d-lg-block flex-between-center">
                                         <h6 class="mb-2 text-900 fs-0">{{__('translations.balance')}} ({{__('translations.afn')}})</h6>
-                                        <h6 class="fs-3 fw-normal text-primary mb-0" data-countup='{"endValue":{{$assetsAFN}},"decimalPlaces":0,"suffix":" AFN","prefix":""}'>{{$assetsAFN}} AFN</h6>
+                                        <h6 class="fs-3 fw-normal text-primary mb-0" data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN","prefix":""}'>{{10000}} AFN</h6>
                                     </div>
                                     <div class="col-6 d-lg-block flex-between-center">
                                         <h6 class="mb-2 text-900 fs-0">{{__('translations.balance')}} ({{__('translations.usd')}})</h6>
-                                        <h6 class="fs-3 fw-normal text-primary mb-0" data-countup='{"endValue":{{$assetsUSD}},"decimalPlaces":0,"suffix":" USD","prefix":""}'>{{$assetsUSD}} USD</h6>
+                                        <h6 class="fs-3 fw-normal text-primary mb-0" data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD","prefix":""}'>{{10000}} USD</h6>
                                     </div>
                                 </div>
                             </div>
@@ -51,11 +51,11 @@
                                 <div class="row flex-between-center">
                                     <div class="col-6 d-lg-block flex-between-center">
                                         <h6 class="mb-2 text-900 fs-0">{{__('translations.expense')}} ({{__('translations.afn')}})</h6>
-                                        <h6 class="fs-3 fw-normal text-danger mb-0" data-countup='{"endValue":{{$expenseDebitAFN}},"decimalPlaces":0,"suffix":" AFN","prefix":""}'>{{$expenseDebitAFN}} AFN</h6>
+                                        <h6 class="fs-3 fw-normal text-danger mb-0" data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN","prefix":""}'>{{10000}} AFN</h6>
                                     </div>
                                     <div class="col-6 d-lg-block flex-between-center">
                                         <h6 class="mb-2 text-900 fs-0">{{__('translations.expense')}} ({{__('translations.usd')}})</h6>
-                                        <h6 class="fs-3 fw-normal text-danger mb-0" data-countup='{"endValue":{{$expenseDebitUSD}},"decimalPlaces":0,"suffix":" USD","prefix":""}'>{{$expenseDebitUSD}} USD</h6>
+                                        <h6 class="fs-3 fw-normal text-danger mb-0" data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD","prefix":""}'>{{10000}} USD</h6>
                                     </div>
                                 </div>
                             </div>
@@ -69,11 +69,11 @@
                                 <div class="row flex-between-center">
                                     <div class="col-6 d-lg-block flex-between-center">
                                         <h6 class="mb-2 text-900 fs-0">{{__('translations.income')}} ({{__('translations.afn')}})</h6>
-                                        <h6 class="fs-3 fw-normal text-success mb-0" data-countup='{"endValue":{{$incomeCreditAFN}},"decimalPlaces":0,"suffix":" AFN","prefix":""}'>{{$incomeCreditAFN}} AFN</h6>
+                                        <h6 class="fs-3 fw-normal text-success mb-0" data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN","prefix":""}'>{{10000}} AFN</h6>
                                     </div>
                                     <div class="col-6 d-lg-block flex-between-center">
                                         <h6 class="mb-2 text-900 fs-0">{{__('translations.income')}} ({{__('translations.usd')}})</h6>
-                                        <h6 class="fs-3 fw-normal text-success mb-0" data-countup='{"endValue":{{$incomeCreditUSD}},"decimalPlaces":0,"suffix":" USD","prefix":""}'>{{$incomeCreditUSD}} USD</h6>
+                                        <h6 class="fs-3 fw-normal text-success mb-0" data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD","prefix":""}'>{{10000}} USD</h6>
                                     </div>
                                 </div>
                             </div>
@@ -99,8 +99,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0">{{__('translations.totalInvoices')}} ({{__('translations.afn')}})<span class="badge badge-soft-warning rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-warning" 
-                                    data-countup='{"endValue":{{$totalInvoicesAFN}},"decimalPlaces":0,"suffix":" AFN"}'>
-                                    {{$totalInvoicesAFN}} AFN
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN"}'>
+                                    {{10000}} AFN
                                 </div>
                             </div>
                         </div>
@@ -112,8 +112,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0"> {{__('translations.paid')}} ({{__('translations.afn')}})<span class="badge badge-soft-success rounded-pill ms-1 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-success" 
-                                    data-countup='{"endValue":{{$totalPaidAmountAFN}},"decimalPlaces":0,"suffix":" AFN"}'>
-                                    {{$totalPaidAmountAFN}} AFN
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN"}'>
+                                    {{10000}} AFN
                                 </div>
                             </div>
                         </div>
@@ -125,8 +125,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0">{{__('translations.discount')}} ({{__('translations.afn')}})<span class="badge badge-soft-warning rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-warning" 
-                                    data-countup='{"endValue":{{$totalDiscountAFN}},"decimalPlaces":0,"suffix":" AFN"}'>
-                                    {{$totalDiscountAFN}} AFN
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN"}'>
+                                    {{10000}} AFN
                                 </div>
                             </div>
                         </div>
@@ -138,8 +138,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0"> {{__('translations.balance')}} ({{__('translations.afn')}})<span class="badge badge-soft-info rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-info" 
-                                    data-countup='{"endValue":{{$totalBalanceAFN}},"decimalPlaces":0,"suffix":" AFN"}'>
-                                    {{$totalBalanceAFN}} AFN
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" AFN"}'>
+                                    {{10000}} AFN
                                 </div>
                             </div>
                         </div>
@@ -152,8 +152,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0">{{__('translations.totalInvoices')}} ({{__('translations.usd')}})<span class="badge badge-soft-warning rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-warning" 
-                                    data-countup='{"endValue":{{$totalInvoicesUSD}},"decimalPlaces":0,"suffix":" USD"}'>
-                                    {{$totalInvoicesUSD}} USD
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD"}'>
+                                    {{10000}} USD
                                 </div>
                             </div>
                         </div>
@@ -166,8 +166,8 @@
                                 <h6 class="fs-0"> {{__('translations.paid')}} ({{__('translations.usd')}}) <span class="badge badge-soft-success rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
 
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-success" 
-                                    data-countup='{"endValue":{{$totalPaidAmountUSD}},"decimalPlaces":0,"suffix":" USD"}'>
-                                    {{$totalPaidAmountUSD}} USD
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD"}'>
+                                    {{10000}} USD
                                 </div>
                                 
                             </div>
@@ -180,8 +180,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0">{{__('translations.discount')}} ({{__('translations.usd')}})<span class="badge badge-soft-warning rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-warning" 
-                                    data-countup='{"endValue":{{$totalDiscountUSD}},"decimalPlaces":0,"suffix":" USD"}'>
-                                    {{$totalDiscountUSD}} USD
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD"}'>
+                                    {{10000}} USD
                                 </div>
                             </div>
                         </div>
@@ -193,8 +193,8 @@
                             <div class="card-body position-relative">
                                 <h6 class="fs-0"> {{__('translations.balance')}} (USD)<span class="badge badge-soft-info rounded-pill ms-2 fs--2">{{__('translations.currentMonth')}}</span></h6>
                                 <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-info" 
-                                    data-countup='{"endValue":{{$totalBalanceUSD}},"decimalPlaces":0,"suffix":" USD"}'>
-                                    {{$totalBalanceUSD}} USD
+                                    data-countup='{"endValue":{{10000}},"decimalPlaces":0,"suffix":" USD"}'>
+                                    {{10000}} USD
                                 </div>
                             </div>
                         </div>
@@ -209,8 +209,8 @@
                                 <div class="card-body position-relative">
                                     <h6 class="fs-0">{{__('translations.total')}} {{__('translations.apartments')}}</h6>
                                     <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-info" 
-                                        data-countup='{"endValue":{{$totalApartments}},"decimalPlaces":0}'>
-                                        {{$totalApartments}}
+                                        data-countup='{"endValue":{{10000}},"decimalPlaces":0}'>
+                                        {{10000}}
                                     </div>
                                     
                                 </div>
@@ -224,8 +224,8 @@
                                 <div class="card-body position-relative">
                                     <h6 class="fs-0">{{__('translations.total')}} {{__('paths.shops')}}</h6>
                                     <div class="display-4 fs-4 mb-2 fw-normal font-sans-serif text-success" 
-                                        data-countup='{"endValue":{{$totalShops}},"decimalPlaces":0}'>
-                                        {{$totalShops}}
+                                        data-countup='{"endValue":{{10000}},"decimalPlaces":0}'>
+                                        {{10000}}
                                     </div>
                                     
                                 </div>
@@ -233,8 +233,6 @@
                         </div>
                     </div>
                 </div>
-                
-
             </div>
             
             </div>

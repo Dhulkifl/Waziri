@@ -1,21 +1,21 @@
 <?php
 return [
     'dashboard' => 'داشبورد',
-    'apartmentsShops' => 'اپارتمان ها و دوکاکین',
-        //sub menus
-        'projects' => 'پروژه ها',
-        'apartments' => 'اپارتمان ها',
-        'shops' => 'دکاکین',
-        
+    'courses' => 'کورس ها',
+    //sub menus
+    'categories' => 'کتگوری ها',
+    'subjects' => 'مضامین',
+    'shops' => 'دکاکین',
+
     'finance' => 'مالی',
-        //sub menus
-        'accounts' => 'حسابات',
-        
+    //sub menus
+    'accounts' => 'حسابات',
+
     'reports' => 'راپور ها',
-        //sub menus
-    
+    //sub menus
+
     'users' => ' یوزر ها',
 
 
-    
+
 ];

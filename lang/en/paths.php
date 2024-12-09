@@ -1,21 +1,22 @@
 <?php
 return [
-    
+
     'dashboard' => 'Dashboard',
-    'apartmentsShops' => 'Apartments & Shops',
-        //sub menus
-        'projects' => 'Projects',
-        'apartments' => 'Apartments',
-        'shops' => 'Shops',
+
+    'courses' => 'Courses',
+    //sub menus
+    'categories' => 'Categories',
+    'subjects' => 'Subjects',
+    'shops' => 'Shops',
 
     'finance' => 'Finance',
-        //submenus
-        'accounts' => 'Accounts',
+    //submenus
+    'accounts' => 'Accounts',
 
     'reports' => 'Reorts',
     //sub menus
 
     'users' => 'Users',
 
-    
+
 ];

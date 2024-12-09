@@ -11,6 +11,7 @@
         "carlos-meneses/laravel-mpdf": "^2.1",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
+        "laravel/ui": "^4.6",
         "morilog/jalali": "3.*",
         "spatie/laravel-permission": "^6.10"
     },

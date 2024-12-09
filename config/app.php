@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost/Waziri/public/'),
+    'url' => env('APP_URL', 'https://localhost/Waziri/public/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -123,7 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    
-    
+
+
 
 ];
